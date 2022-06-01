@@ -128,25 +128,25 @@ const ComingSoon = () => {
                 className={styles.icon}
                 height={20}
                 width={20}
-                fill="white"
+                fill="rgba(255, 255, 255, 0.437)"
               />
               <LinkedIn
                 className={styles.icon}
                 height={20}
                 width={20}
-                fill="white"
+                fill="rgba(255, 255, 255, 0.437)"
               />
               <Instagram
                 className={styles.icon}
                 height={20}
                 width={20}
-                fill="white"
+                fill="rgba(255, 255, 255, 0.437)"
               />
               <Twitter
                 className={styles.icon}
                 height={20}
                 width={20}
-                fill="white"
+                fill="rgba(255, 255, 255, 0.437)"
               />
             </div>
             <div className={styles.links}>

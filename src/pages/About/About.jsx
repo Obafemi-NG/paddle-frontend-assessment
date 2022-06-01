@@ -6,11 +6,16 @@ import { ReactComponent as Facebook } from "../../assets/facebook-square-brands.
 import { ReactComponent as Instagram } from "../../assets/instagram-brands.svg";
 import { ReactComponent as LinkedIn } from "../../assets/linkedin-brands.svg";
 import { ReactComponent as Twitter } from "../../assets/twitter-square-brands.svg";
+import { ReactComponent as Arrow } from "../../assets/arrow-right-solid.svg";
 
 const About = () => {
   return (
     <div className={styles["page-container"]}>
       <NavBar />
+      <div className={styles["small-sphere"]} />
+      <div className={styles["big-rectangle"]} />
+      <div className={styles["medium-rectangle"]} />
+      <div className={styles["small-rectangle"]} />
       <div className={styles.header}>
         <div className={styles["header-blur"]} />
         <div className={styles["header-content"]}>
@@ -79,7 +84,22 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className={styles.question}></div>
+      <div className={styles.question}>
+        <div className={styles["question-title"]}> Got a Question </div>
+        <div className={styles["question-body"]}>
+          {" "}
+          See how Metricks can help your business grow with best affiliate
+          marketing tracking <br /> software{" "}
+        </div>
+        <div className={styles["question-cta"]}>
+          {" "}
+          Contact Us{" "}
+          <span className={styles.arrow}>
+            {" "}
+            <Arrow height={15} width={15} fill="rgb(241, 9, 229)" />{" "}
+          </span>
+        </div>
+      </div>
       <div className={styles.footer}>
         <div className={styles["socials-icon"]}>
           <Youtube
@@ -92,25 +112,25 @@ const About = () => {
             className={styles.icon}
             height={20}
             width={20}
-            fill="white"
+            fill="rgba(255, 255, 255, 0.437)"
           />
           <LinkedIn
             className={styles.icon}
             height={20}
             width={20}
-            fill="white"
+            fill="rgba(255, 255, 255, 0.437)"
           />
           <Instagram
             className={styles.icon}
             height={20}
             width={20}
-            fill="white"
+            fill="rgba(255, 255, 255, 0.437)"
           />
           <Twitter
             className={styles.icon}
             height={20}
             width={20}
-            fill="white"
+            fill="rgba(255, 255, 255, 0.437)"
           />
         </div>
         <div className={styles.links}>
