@@ -1,8 +1,10 @@
+.container {
+  position: relative;
+}
 .page-container {
   /* height: 100vh; */
   width: 100vw;
   background-color: #160040;
-  position: relative;
 }
 
 .page-content {
@@ -67,7 +69,7 @@
   flex-direction: column;
   margin-left: 30px;
 }
-label {
+.label {
   color: white;
   font-size: 10px;
   color: darkgray;
@@ -78,7 +80,10 @@ label {
   transition: top 0.5s;
   /* margin-top: -20px; */
 }
-input:focus ~ label {
+.input {
+  background-color: transparent;
+}
+.input:focus ~ .label {
   top: -10px;
   font-size: 8px;
 }
@@ -193,11 +198,9 @@ input:focus ~ label {
 }
 
 .blur {
-  /* height: 100vh; */
   width: 100vw;
   background-color: #160040;
   position: relative;
-  /* animation: blur 0.5s linear 2s 1 forwards; */
   animation: blur 0.5s ease-in-out 1.1s;
   animation-fill-mode: forwards;
 }
