@@ -1,0 +1,165 @@
+.page-container {
+  background-color: #160040;
+}
+
+.header {
+  margin-top: 50px;
+}
+.header-blur {
+  width: 57vw;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.115);
+  z-index: 2;
+}
+
+.header-content {
+  z-index: 4;
+  margin-top: -280px;
+}
+.line {
+  width: 40px;
+  margin-right: 5px;
+  border-bottom: 1.5px solid white;
+}
+.header-title {
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 30vw;
+}
+.header-subtitle {
+  color: white;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 2.8rem;
+  margin-left: 37vw;
+  margin-top: 30px;
+}
+.header-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 62vw;
+  margin-top: 50px;
+  line-height: 1.7rem;
+}
+.matricks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-bottom {
+  color: white;
+  font-size: 32px;
+  text-align: left;
+  margin: 80px 0px;
+  line-height: 3rem;
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+.left {
+  margin-left: 15vw;
+}
+.top {
+  display: flex;
+  align-items: center;
+}
+.number {
+  color: white;
+  margin-left: 8px;
+  font-size: 12px;
+  margin-bottom: -17px;
+}
+.number-border {
+  width: 40px;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 12px;
+  margin-right: 5px;
+}
+.left-title {
+  color: white;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 2.8rem;
+  font: fallback;
+  font-size: 14px;
+}
+.bottom {
+  margin-top: 10px;
+}
+.left-text {
+  color: white;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.5rem;
+  margin-top: 19px;
+}
+.dotted-grid {
+  width: 250px;
+  height: 120px;
+  background: transparent;
+  background-image: radial-gradient(white 2px, transparent 0);
+  background-size: 25px 25px;
+  background-position: -19px -19px;
+  margin: 65px 0 0 -19px;
+}
+
+.right {
+  width: 45vw;
+  height: 350px;
+  background-color: rgba(255, 255, 255, 0.115);
+  z-index: 2;
+}
+.top-right {
+  margin: 40px 0 0 50px;
+}
+.bottom-right {
+  margin-left: 50px;
+  font-size: 14px;
+  font-weight: 200;
+  color: white;
+  line-height: 1.6rem;
+}
+.first-text,
+.second-text {
+  margin-top: 19px;
+}
+
+.footer {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.socials-icon {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  color: darkgrey;
+  width: 20%;
+  align-items: center;
+  font-size: 12px;
+  justify-content: space-between;
+}
+.link:hover {
+  cursor: pointer;
+}
+.copyright {
+  color: darkgray;
+  font-size: 12px;
+  margin-top: 15px;
+}
