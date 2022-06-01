@@ -4,6 +4,9 @@ import styles from "./ComingSoon.module.css";
 
 const ComingSoon = () => {
   const [isAnimate, setIsAnimate] = useState(false);
+  const handleContactUs = () => {
+    setIsAnimate(!isAnimate);
+  };
   const countdown = [
     {
       id: "days",
@@ -30,7 +33,7 @@ const ComingSoon = () => {
     <div
       className={isAnimate ? `${styles.blur}` : `${styles["page-container"]}`}
     >
-      <NavBar />
+      <NavBar contactUs={handleContactUs} />
       <div className={styles["big-sphere"]} />
       <div className={styles["medium-sphere"]} />
       <div className={styles["small-sphere"]} />

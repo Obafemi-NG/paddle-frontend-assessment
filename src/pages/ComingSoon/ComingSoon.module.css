@@ -108,6 +108,7 @@ input:focus ~ label {
   height: 40px;
   border-radius: 20px;
   width: 200px;
+  font-size: 12px;
   margin-left: -40px;
   box-shadow: -3px 0px 11px -3px rgba(117, 117, 117, 0.75);
   -webkit-box-shadow: -3px 0px 11px -3px rgba(117, 117, 117, 0.75);
