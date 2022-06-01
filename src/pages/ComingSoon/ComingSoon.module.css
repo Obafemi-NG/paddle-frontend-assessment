@@ -1,5 +1,5 @@
 .page-container {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
   background-color: #160040;
   position: relative;
@@ -118,13 +118,46 @@ input:focus ~ label {
   cursor: pointer;
 }
 
-.big-sphere {
-  width: 130px;
-  height: 130px;
-  position: absolute;
-  bottom: 0px;
+.footer {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 0px;
+}
+.socials-icon {
+  width: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.links {
+  display: flex;
+  color: darkgrey;
+  width: 20%;
+  align-items: center;
+  font-size: 12px;
+  justify-content: space-between;
+}
+.link:hover {
+  cursor: pointer;
+}
+.copyright {
+  color: darkgray;
+  font-size: 12px;
+  margin-top: 15px;
+}
 
-  left: 280px;
+.big-sphere {
+  width: 105px;
+  height: 105px;
+  position: absolute;
+  bottom: 110px;
+
+  left: 350px;
   border-radius: 100%;
   background-image: linear-gradient(
     to top,
@@ -160,7 +193,7 @@ input:focus ~ label {
 }
 
 .blur {
-  height: 100vh;
+  /* height: 100vh; */
   width: 100vw;
   background-color: #160040;
   position: relative;
