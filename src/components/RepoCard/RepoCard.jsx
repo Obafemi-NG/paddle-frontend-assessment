@@ -8,6 +8,7 @@ const RepoCard = ({
   stars,
   issues,
   createAt,
+  Day,
 }) => {
   // const today = new Date();
   // const priorDate = new Date().setDate(today.getDate());
@@ -28,9 +29,12 @@ const RepoCard = ({
             <div className={styles.desc}> {description} </div>
           </div>
           <div className={styles.bottom}>
-            <div className={styles.stars}>{stars}</div>
-            <div className={styles.issues}>{issues}</div>
-            <div className={styles.date}></div>
+            <div className={styles.stars}> Stars: {stars}</div>
+            <div className={styles.issues}> Issues: {issues}</div>
+
+            <div className={styles.date}>{` Submitted ${Math.floor(
+              Day
+            )} days ago by ${owner.login} `}</div>
           </div>
         </div>
       </div>

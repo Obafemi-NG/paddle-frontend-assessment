@@ -5,7 +5,7 @@ import RepoList from "../../components/RepoList/RepoList";
 const GitHub = () => {
   const [repo, setRepo] = useState([]);
   const url =
-    "https://api.github.com/search/repositories?q=created:>2021-08-13&sort=stars&order=desc&page=2";
+    "https://api.github.com/search/repositories?q=created:>2021-08-13&sort=stars&order=desc&per_page=100&page=2";
   const fetchRepos = async () => {
     try {
       const response = await fetch(url);
