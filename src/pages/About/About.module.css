@@ -165,7 +165,6 @@
 }
 .arrow {
   margin-left: 10px;
-  /* color: rgba(255, 255, 255, 0.437); */
 }
 
 .footer {
@@ -221,7 +220,7 @@
   position: absolute;
   top: 180px;
   right: 53vw;
-  /* border-radius: 100%; */
+
   background-image: linear-gradient(
     to top,
     rgba(255, 0, 0, 0),
@@ -235,7 +234,7 @@
   position: absolute;
   bottom: -520px;
   right: 23vw;
-  /* border-radius: 100%; */
+
   background-image: linear-gradient(
     to top,
     rgba(255, 0, 0, 0),
@@ -249,7 +248,7 @@
   position: absolute;
   bottom: -940px;
   right: 9vw;
-  /* border-radius: 100%; */
+
   background-image: linear-gradient(
     to top,
     rgba(255, 0, 0, 0),
