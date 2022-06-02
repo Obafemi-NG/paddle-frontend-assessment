@@ -10,19 +10,10 @@
   top: 0;
   right: 0;
   color: white;
-
-  /* animation: scaleIn 1.3s ease-in 0.2s forwards; */
+  animation: contact-us-load 600ms ease-out 2.1s;
+  transform: translateX(105%);
+  animation-fill-mode: forwards;
 }
-
-/* .page-container::after {
-  animation: scaleIn 1.3s ease-in 0.2s forwards;
-} */
-
-/* @keyframes scaleIn {
-  100% {
-    transform: scaleX(1);
-  }
-} */
 
 .close-btn {
   width: 50px;
@@ -82,4 +73,13 @@
   color: white;
   border: none;
   border-radius: 30px;
+}
+
+@keyframes contact-us-load {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }

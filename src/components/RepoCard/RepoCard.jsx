@@ -2,8 +2,6 @@ import React from "react";
 import styles from "./RepoCard.module.css";
 
 const RepoCard = ({ owner, repoName, description, stars, issues, Day }) => {
-  // const today = new Date();
-  // const priorDate = new Date().setDate(today.getDate());
   return (
     <div className={styles.container}>
       <div className={styles["repo-card"]}>

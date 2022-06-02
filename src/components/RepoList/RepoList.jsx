@@ -1,12 +1,6 @@
-import { useState, useEffect } from "react";
-import ReactPaginate from "react-paginate";
 import RepoCard from "../RepoCard/RepoCard";
-import styles from "./RepoList.module.css";
 
 const RepoList = ({ repoData }) => {
-  // const today = new Date().getTime();
-  // console.log(today);
-  // const priorDate = new Date().setDate(today.getDate());
   return (
     <div>
       {repoData.map((repository) => {

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Header from "../../components/Header/Header";
 import RepoList from "../../components/RepoList/RepoList";
 import { SpinnerCircular } from "spinners-react";
