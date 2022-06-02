@@ -1,0 +1,13 @@
+.spinner {
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.loading {
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 10px;
+}

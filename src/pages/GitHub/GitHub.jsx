@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import Header from "../../components/Header/Header";
 import RepoList from "../../components/RepoList/RepoList";
+import { SpinnerCircular } from "spinners-react";
+import styles from "./GitHub.module.css";
 
 const GitHub = () => {
   const [repo, setRepo] = useState([]);
@@ -28,6 +30,12 @@ const GitHub = () => {
     <div>
       <Header fetchRepo={fetchRepos} />
       <RepoList repoData={repo} />
+      {loading && (
+        <div className={styles.spinner}>
+          <SpinnerCircular color="#205375" />
+          <div className={styles.loading}>Loading...</div>
+        </div>
+      )}
     </div>
   );
 };
