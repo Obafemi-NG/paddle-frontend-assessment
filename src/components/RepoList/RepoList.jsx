@@ -14,7 +14,6 @@ const RepoList = ({ repoData }) => {
         const todaysDate = new Date("2021-09-13");
         const differenceInTime = dateCreated.getTime() - todaysDate.getTime();
         const differenceInDays = differenceInTime / (1000 * 3600 * 24);
-        // const dateCreatedInDay = dateCreated.getTime() / (1000 * 3600 * 24);
         console.log(Math.floor(differenceInDays));
 
         return (

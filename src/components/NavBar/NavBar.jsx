@@ -10,7 +10,10 @@ const NavBar = ({ contactUs }) => {
         <h4 className={styles.logo}> METRICKS </h4>
       </div>
       <div className={styles["links-container"]}>
-        <p className={styles.link}> ABOUT </p>
+        <p className={styles.link} onClick={() => navigate("/about")}>
+          {" "}
+          ABOUT{" "}
+        </p>
         <p onClick={() => navigate("/blog")} className={styles.link}>
           {" "}
           BLOG{" "}

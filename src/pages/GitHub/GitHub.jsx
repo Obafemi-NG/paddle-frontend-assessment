@@ -4,9 +4,11 @@ import RepoList from "../../components/RepoList/RepoList";
 
 const GitHub = () => {
   const [repo, setRepo] = useState([]);
+  const [loading, setLoading] = useState(false);
   const url =
     "https://api.github.com/search/repositories?q=created:>2021-08-13&sort=stars&order=desc&per_page=100&page=2";
   const fetchRepos = async () => {
+    setLoading(true);
     try {
       const response = await fetch(url);
       if (!response.ok) {
@@ -19,6 +21,7 @@ const GitHub = () => {
     } catch (error) {
       console.log(error);
     }
+    setLoading(false);
   };
 
   return (

@@ -1,5 +1,6 @@
 .page-container {
   background-color: #160040;
+  width: 100vw;
 }
 
 .header {
@@ -135,7 +136,6 @@
 
 .question {
   margin-top: 150px;
-  width: 100%;
   height: 250px;
   background-color: rgba(255, 255, 255, 0.115);
   display: flex;
