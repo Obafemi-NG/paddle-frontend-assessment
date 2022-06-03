@@ -2,9 +2,13 @@ import React from "react";
 import styles from "./ContactUs.module.css";
 import { ReactComponent as Arrow } from "../../assets/arrow-right-solid.svg";
 
-const ContactUs = ({ close }) => {
+const ContactUs = ({ close, animate }) => {
   return (
-    <div className={styles["page-container"]}>
+    <div
+      className={
+        animate ? `${styles["page-container"]}` : `${styles["move-out"]}`
+      }
+    >
       <div className={styles.title}>
         Hey, we are still in the works, <br /> but you can send us a message!
       </div>

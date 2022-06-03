@@ -10,7 +10,7 @@
   top: 0;
   right: 0;
   color: white;
-  animation: contact-us-load 600ms ease-out 2.1s;
+  animation: contact-us-load 600ms ease-out 1.5s;
   transform: translateX(105%);
   animation-fill-mode: forwards;
 }
@@ -75,11 +75,37 @@
   border-radius: 30px;
 }
 
+.move-out {
+  width: 45vw;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 10;
+  background-color: #160040;
+  height: 100%;
+  top: 0;
+  right: 0;
+  color: white;
+  animation: close 600ms ease-in 300ms;
+  transform: translateX(0);
+  animation-fill-mode: forwards;
+}
+
 @keyframes contact-us-load {
   0% {
     transform: translateX(100%);
   }
   100% {
     transform: translateX(0);
+  }
+}
+
+@keyframes close {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
   }
 }

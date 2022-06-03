@@ -159,7 +159,7 @@ const ComingSoon = () => {
           </div>
         </div>
       </div>
-      {isAnimate && <ContactUs close={closeContactUs} />}
+      {isAnimate && <ContactUs close={closeContactUs} animate={isAnimate} />}
     </div>
   );
 };
