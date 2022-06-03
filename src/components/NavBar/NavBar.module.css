@@ -9,6 +9,9 @@
 .logo {
   font-size: 18px;
 }
+.logo:hover {
+  cursor: pointer;
+}
 
 .links-container {
   display: flex;

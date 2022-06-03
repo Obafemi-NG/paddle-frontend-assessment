@@ -7,7 +7,10 @@ const NavBar = ({ contactUs }) => {
   return (
     <div className={styles.navbar}>
       <div className={styles["logo-container"]}>
-        <h4 className={styles.logo}> METRICKS </h4>
+        <h4 className={styles.logo} onClick={() => navigate("/comingsoon")}>
+          {" "}
+          METRICKS{" "}
+        </h4>
       </div>
       <div className={styles["links-container"]}>
         <p className={styles.link} onClick={() => navigate("/about")}>

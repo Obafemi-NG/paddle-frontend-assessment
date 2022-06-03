@@ -76,18 +76,7 @@
 }
 
 .move-out {
-  width: 45vw;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  z-index: 10;
-  background-color: #160040;
-  height: 100%;
-  top: 0;
-  right: 0;
-  color: white;
-  animation: close 600ms ease-in 300ms;
+  animation: close 600ms ease-in 500ms;
   transform: translateX(0);
   animation-fill-mode: forwards;
 }
