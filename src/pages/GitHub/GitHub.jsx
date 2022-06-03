@@ -31,7 +31,6 @@ const GitHub = () => {
       <Header fetchRepo={fetchRepos} />
 
       <RepoList repoData={repo} />
-
       {loading && (
         <div className={styles.spinner}>
           <SpinnerCircular color="#205375" />
